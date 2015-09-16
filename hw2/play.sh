@@ -1,0 +1,1 @@
+python gameplay.py $1 $2 $3
