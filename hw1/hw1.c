@@ -193,6 +193,7 @@ int main(int argc, char** argv)
     exit(1);
   }
   
+  close(outputfd);
   printf("Downloaded %s\n", filename);
   shutdown(sock_fd,SHUT_RDWR);
   exit(0);
